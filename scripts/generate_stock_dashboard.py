@@ -136,9 +136,9 @@ def make_dashboard(user: dict) -> str:
     stars = sum(int(repo.get("stargazerCount") or 0) for repo in all_repos)
     followers = int(user.get("followers", {}).get("totalCount", 0))
     language_counts = Counter(
-        repo.get("primaryLanguage", {}).get("name")
-        for repo in owned_repos
-        if repo.get("primaryLanguage", {}).get("name")
+        language.get("name")
+        for language in (repo.get("primaryLanguage") or {} for repo in owned_repos)
+        if language.get("name")
     )
     sector = language_counts.most_common(1)[0][0] if language_counts else "SOFTWARE"
 
