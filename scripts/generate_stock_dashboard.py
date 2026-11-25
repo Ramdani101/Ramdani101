@@ -11,6 +11,7 @@ import html
 import json
 import os
 import pathlib
+import re
 import sys
 import urllib.request
 from collections import Counter
@@ -101,6 +102,8 @@ def fetch_profile() -> dict:
 
 
 def text(x, y, value, size=14, color="#c9d1d9", weight=400, anchor="start", family="Inter, Segoe UI, Arial, sans-serif", extra=""):
+    # Avoid duplicate font-family XML attributes: GitHub rejects malformed SVG.
+    extra = re.sub(r'\sfont-family="[^"]*"', "", extra)
     return (
         f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" '
         f'font-weight="{weight}" text-anchor="{anchor}" '
@@ -256,7 +259,7 @@ def make_dashboard(user: dict) -> str:
     out += [
         '<circle cx="78" cy="72" r="27" fill="#12261b" stroke="#3fb950" stroke-width="3"/>',
         text(78, 80, "RM", 17, "#3fb950", 800, "middle", "ui-monospace, SFMono-Regular, Consolas, monospace"),
-        text(120, 68, "$RAMDA", 29, "#f0f6fc", 800),
+        text(120, 68, USERNAME.upper()[:8], 29, "#f0f6fc", 800),
         '<rect x="270" y="43" width="145" height="28" rx="14" fill="#281a28" stroke="#f04f73"/>',
         text(342, 62, f"SECTOR · {sector.upper()[:14]}", 10, "#ff6687", 700, "middle", "ui-monospace, SFMono-Regular, Consolas, monospace", 'letter-spacing="1"'),
         text(120, 96, f"{user.get('name') or USERNAME} · GitHub · contribution index", 13, "#9da7b3"),
