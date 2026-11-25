@@ -1,0 +1,53 @@
+name: Update GitHub Stock Dashboard
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - "scripts/generate_stock_dashboard.py"
+      - ".github/workflows/update-stock-dashboard.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-dashboard
+  cancel-in-progress: true
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate dashboard from GitHub data
+        env:
+          GITHUB_USERNAME: Ramdani101
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_stock_dashboard.py
+
+      - name: Commit updated dashboard
+        run: |
+          if git diff --quiet -- assets/stock-dashboard.svg; then
+            echo "Dashboard is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stock-dashboard.svg
+          git commit -m "chore: refresh GitHub stock dashboard"
+          git push
