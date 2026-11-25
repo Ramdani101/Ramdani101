@@ -127,11 +127,39 @@ def make_dashboard(user: dict) -> str:
 
     owned_repos = [
         repo for repo in all_repos
-        if not repo.get("isFork") and not repo.get("isArchived")
+        if not repo.get("isFork")
+        and not repo.get("isArchived")
+        and repo.get("name", "").lower() != USERNAME.lower()
     ]
     owned_repos.sort(key=lambda repo: repo.get("updatedAt", ""), reverse=True)
-    holdings = owned_repos[:6]
-    ticker_repos = owned_repos[:4]
+
+    # Keep the profile's most recognizable projects in the portfolio, then
+    # fill any missing slots with recently updated non-fork repositories.
+    holding_order = [
+        "bigdata-streaming",
+        "dukasaha",
+        "midterm-project",
+        "codeforces-solution",
+        "mancing-perkoro-simulator",
+        "sosial-gabut-media",
+    ]
+    owned_by_name = {repo.get("name", "").lower(): repo for repo in owned_repos}
+    holdings = [owned_by_name[name] for name in holding_order if name in owned_by_name]
+    holdings.extend(repo for repo in owned_repos if repo not in holdings)
+    holdings = holdings[:6]
+
+    # Watchlist includes selected public projects, including a fork if it is
+    # part of the profile's public project activity.
+    ticker_order = [
+        "candy-crush-lokal",
+        "dukasaha",
+        "monitoring-ekonomi-lamongan",
+        "bigdata-streaming",
+    ]
+    all_by_name = {repo.get("name", "").lower(): repo for repo in all_repos}
+    ticker_repos = [all_by_name[name] for name in ticker_order if name in all_by_name]
+    ticker_repos.extend(repo for repo in owned_repos if repo not in ticker_repos)
+    ticker_repos = ticker_repos[:4]
 
     stars = sum(int(repo.get("stargazerCount") or 0) for repo in all_repos)
     followers = int(user.get("followers", {}).get("totalCount", 0))
@@ -228,7 +256,7 @@ def make_dashboard(user: dict) -> str:
     out += [
         '<circle cx="78" cy="72" r="27" fill="#12261b" stroke="#3fb950" stroke-width="3"/>',
         text(78, 80, "RM", 17, "#3fb950", 800, "middle", "ui-monospace, SFMono-Regular, Consolas, monospace"),
-        text(120, 68, USERNAME.upper()[:8], 29, "#f0f6fc", 800),
+        text(120, 68, "$RAMDA", 29, "#f0f6fc", 800),
         '<rect x="270" y="43" width="145" height="28" rx="14" fill="#281a28" stroke="#f04f73"/>',
         text(342, 62, f"SECTOR · {sector.upper()[:14]}", 10, "#ff6687", 700, "middle", "ui-monospace, SFMono-Regular, Consolas, monospace", 'letter-spacing="1"'),
         text(120, 96, f"{user.get('name') or USERNAME} · GitHub · contribution index", 13, "#9da7b3"),
