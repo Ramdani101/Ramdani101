@@ -10,20 +10,20 @@
 <rect x="270" y="43" width="145" height="28" rx="14" fill="#281a28" stroke="#f04f73"/>
 <text x="342" y="62" fill="#ff6687" font-size="10" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing="1">SECTOR · C++</text>
 <text x="120" y="96" fill="#9da7b3" font-size="13" font-weight="400" text-anchor="start" font-family="Inter, Segoe UI, Arial, sans-serif" >Ramdani Mulyadi · GitHub · contribution index</text>
-<text x="900" y="73" fill="#f0f6fc" font-size="39" font-weight="800" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" >21</text>
+<text x="900" y="73" fill="#f0f6fc" font-size="39" font-weight="800" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" >33</text>
 <text x="900" y="98" fill="#9da7b3" font-size="10" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing="0.7">CONTRIBUTIONS / LAST 30 DAYS</text>
-<text x="900" y="120" fill="#3fb950" font-size="11" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >▲  +600.0% VS PRIOR 30D</text>
+<text x="900" y="120" fill="#3fb950" font-size="11" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >▲  +725.0% VS PRIOR 30D</text>
 <rect x="30" y="145" width="900" height="440" rx="12" fill="#0e141b" stroke="#27313b" stroke-width="1"/>
 <text x="58" y="181" fill="#e6edf3" font-size="12" font-weight="700" text-anchor="start" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">CONTRIBUTION INDEX</text>
 <text x="900" y="181" fill="#8b949e" font-size="10" font-weight="500" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >7D ROLLING · WEEKLY CANDLES</text>
 <line x1="84" y1="220.0" x2="905" y2="220.0" stroke="#26313b" stroke-width="1"/>
-<text x="68" y="224.0" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >14</text>
+<text x="68" y="224.0" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >19</text>
 <line x1="84" y1="271.2" x2="905" y2="271.2" stroke="#26313b" stroke-width="1"/>
-<text x="68" y="275.25" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >10</text>
+<text x="68" y="275.25" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >14</text>
 <line x1="84" y1="322.5" x2="905" y2="322.5" stroke="#26313b" stroke-width="1"/>
-<text x="68" y="326.5" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >7</text>
+<text x="68" y="326.5" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >10</text>
 <line x1="84" y1="373.8" x2="905" y2="373.8" stroke="#26313b" stroke-width="1"/>
-<text x="68" y="377.75" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >4</text>
+<text x="68" y="377.75" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >5</text>
 <line x1="84" y1="425.0" x2="905" y2="425.0" stroke="#26313b" stroke-width="1"/>
 <text x="68" y="429.0" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >0</text>
 <line x1="99.8" y1="425.0" x2="99.8" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
@@ -37,9 +37,9 @@
 <line x1="162.9" y1="425.0" x2="162.9" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
 <rect x="154.9" y="425.0" width="16.0" height="3.0" rx="1" fill="#3fb950"/>
 <rect x="154.9" y="478.0" width="16.0" height="2.0" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="194.5" y1="395.7" x2="194.5" y2="395.7" stroke="#3fb950" stroke-width="1.6"/>
-<rect x="186.5" y="395.7" width="16.0" height="3.0" rx="1" fill="#3fb950"/>
-<rect x="186.5" y="471.3" width="16.0" height="8.7" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="194.5" y1="403.4" x2="194.5" y2="403.4" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="186.5" y="403.4" width="16.0" height="3.0" rx="1" fill="#3fb950"/>
+<rect x="186.5" y="474.9" width="16.0" height="5.1" rx="1" fill="#66717d" opacity="0.62"/>
 <line x1="226.1" y1="425.0" x2="226.1" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
 <rect x="218.1" y="425.0" width="16.0" height="3.0" rx="1" fill="#3fb950"/>
 <rect x="218.1" y="478.0" width="16.0" height="2.0" rx="1" fill="#66717d" opacity="0.62"/>
@@ -63,14 +63,14 @@
 <line x1="415.6" y1="425.0" x2="415.6" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
 <rect x="407.6" y="425.0" width="16.0" height="3.0" rx="1" fill="#3fb950"/>
 <rect x="407.6" y="478.0" width="16.0" height="2.0" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="447.1" y1="410.4" x2="447.1" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
-<rect x="439.1" y="410.4" width="16.0" height="14.6" rx="1" fill="#3fb950"/>
-<rect x="439.1" y="475.6" width="16.0" height="4.4" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="478.7" y1="351.8" x2="478.7" y2="410.4" stroke="#3fb950" stroke-width="1.6"/>
-<rect x="470.7" y="366.4" width="16.0" height="43.9" rx="1" fill="#3fb950"/>
-<rect x="470.7" y="462.5" width="16.0" height="17.5" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="510.3" y1="366.4" x2="510.3" y2="425.0" stroke="#ff5555" stroke-width="1.6"/>
-<rect x="502.3" y="366.4" width="16.0" height="58.6" rx="1" fill="#ff5555"/>
+<line x1="447.1" y1="414.2" x2="447.1" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="439.1" y="414.2" width="16.0" height="10.8" rx="1" fill="#3fb950"/>
+<rect x="439.1" y="477.5" width="16.0" height="2.5" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="478.7" y1="371.1" x2="478.7" y2="414.2" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="470.7" y="381.8" width="16.0" height="32.4" rx="1" fill="#3fb950"/>
+<rect x="470.7" y="469.9" width="16.0" height="10.1" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="510.3" y1="381.8" x2="510.3" y2="425.0" stroke="#ff5555" stroke-width="1.6"/>
+<rect x="502.3" y="381.8" width="16.0" height="43.2" rx="1" fill="#ff5555"/>
 <rect x="502.3" y="478.0" width="16.0" height="2.0" rx="1" fill="#66717d" opacity="0.62"/>
 <line x1="541.9" y1="425.0" x2="541.9" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
 <rect x="533.9" y="425.0" width="16.0" height="3.0" rx="1" fill="#3fb950"/>
@@ -89,28 +89,28 @@
 <rect x="660.2" y="425.0" width="16.0" height="3.0" rx="1" fill="#3fb950"/>
 <rect x="660.2" y="478.0" width="16.0" height="2.0" rx="1" fill="#66717d" opacity="0.62"/>
 <text x="668.1730769230769" y="502" fill="#768390" font-size="9" font-weight="500" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >OCT</text>
-<line x1="699.8" y1="381.1" x2="699.8" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
-<rect x="691.8" y="381.1" width="16.0" height="43.9" rx="1" fill="#3fb950"/>
-<rect x="691.8" y="466.9" width="16.0" height="13.1" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="731.3" y1="381.1" x2="731.3" y2="425.0" stroke="#ff5555" stroke-width="1.6"/>
-<rect x="723.3" y="381.1" width="16.0" height="43.9" rx="1" fill="#ff5555"/>
+<line x1="699.8" y1="392.6" x2="699.8" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="691.8" y="392.6" width="16.0" height="32.4" rx="1" fill="#3fb950"/>
+<rect x="691.8" y="472.4" width="16.0" height="7.6" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="731.3" y1="392.6" x2="731.3" y2="425.0" stroke="#ff5555" stroke-width="1.6"/>
+<rect x="723.3" y="392.6" width="16.0" height="32.4" rx="1" fill="#ff5555"/>
 <rect x="723.3" y="478.0" width="16.0" height="2.0" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="762.9" y1="410.4" x2="762.9" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
-<rect x="754.9" y="410.4" width="16.0" height="14.6" rx="1" fill="#3fb950"/>
-<rect x="754.9" y="475.6" width="16.0" height="4.4" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="794.5" y1="410.4" x2="794.5" y2="425.0" stroke="#ff5555" stroke-width="1.6"/>
-<rect x="786.5" y="410.4" width="16.0" height="14.6" rx="1" fill="#ff5555"/>
+<line x1="762.9" y1="414.2" x2="762.9" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="754.9" y="414.2" width="16.0" height="10.8" rx="1" fill="#3fb950"/>
+<rect x="754.9" y="477.5" width="16.0" height="2.5" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="794.5" y1="414.2" x2="794.5" y2="425.0" stroke="#ff5555" stroke-width="1.6"/>
+<rect x="786.5" y="414.2" width="16.0" height="10.8" rx="1" fill="#ff5555"/>
 <rect x="786.5" y="478.0" width="16.0" height="2.0" rx="1" fill="#66717d" opacity="0.62"/>
 <text x="794.4807692307692" y="502" fill="#768390" font-size="9" font-weight="500" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >NOV</text>
-<line x1="826.1" y1="381.1" x2="826.1" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
-<rect x="818.1" y="381.1" width="16.0" height="43.9" rx="1" fill="#3fb950"/>
-<rect x="818.1" y="466.9" width="16.0" height="13.1" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="857.6" y1="220.0" x2="857.6" y2="381.1" stroke="#3fb950" stroke-width="1.6"/>
-<rect x="849.6" y="263.9" width="16.0" height="117.1" rx="1" fill="#3fb950"/>
-<rect x="849.6" y="432.0" width="16.0" height="48.0" rx="1" fill="#66717d" opacity="0.62"/>
-<line x1="889.2" y1="234.6" x2="889.2" y2="366.4" stroke="#ff5555" stroke-width="1.6"/>
-<rect x="881.2" y="234.6" width="16.0" height="102.5" rx="1" fill="#ff5555"/>
-<rect x="881.2" y="453.8" width="16.0" height="26.2" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="826.1" y1="392.6" x2="826.1" y2="425.0" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="818.1" y="392.6" width="16.0" height="32.4" rx="1" fill="#3fb950"/>
+<rect x="818.1" y="472.4" width="16.0" height="7.6" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="857.6" y1="273.9" x2="857.6" y2="392.6" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="849.6" y="306.3" width="16.0" height="86.3" rx="1" fill="#3fb950"/>
+<rect x="849.6" y="452.2" width="16.0" height="27.8" rx="1" fill="#66717d" opacity="0.62"/>
+<line x1="889.2" y1="220.0" x2="889.2" y2="381.8" stroke="#3fb950" stroke-width="1.6"/>
+<rect x="881.2" y="220.0" width="16.0" height="64.7" rx="1" fill="#3fb950"/>
+<rect x="881.2" y="432.0" width="16.0" height="48.0" rx="1" fill="#66717d" opacity="0.62"/>
 <text x="84" y="522" fill="#8b949e" font-size="9" font-weight="400" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >VOLUME = CONTRIBUTIONS PER WEEK · LAST 26 WEEKS</text>
 <text x="905" y="522" fill="#687582" font-size="9" font-weight="400" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" >SOURCE: GITHUB</text>
 <rect x="58" y="540" width="844" height="35" rx="4" fill="#151d26"/>
